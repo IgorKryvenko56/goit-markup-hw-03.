@@ -181,7 +181,6 @@ color:var(--title-text-color);
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 15px;
     text-decoration: none;
     }
     .header-list > .header-item:not(:last-child) {
@@ -365,7 +364,7 @@ color:var(--title-text-color);
   
   .section.team  {
     background-color: var(--cloud-color);
-    padding: 120px auto;
+    padding: 120px 0;
     }
     .team-list {
      display: flex;
@@ -488,7 +487,7 @@ color:var(--title-text-color);
 /*--Portfolio--*/
 .section.portfolio {
  padding-top: 96px;
-background-color: #FFFFFF;
+ padding-bottom: 120px;
 }
 .button-portfolio{
 display: flex;
